@@ -61,6 +61,12 @@ build CMakeFiles/underpassc.dir/helloworld.c.o: C_COMPILER__underpassc_unscanned
   OBJECT_DIR = CMakeFiles/underpassc.dir
   OBJECT_FILE_DIR = CMakeFiles/underpassc.dir
 
+build CMakeFiles/underpassc.dir/basiccalculator.c.o: C_COMPILER__underpassc_unscanned_Debug /Users/hakanavgin/CLionProjects/underpassc/basiccalculator.c || cmake_object_order_depends_target_underpassc
+  DEP_FILE = CMakeFiles/underpassc.dir/basiccalculator.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/underpassc.dir
+  OBJECT_FILE_DIR = CMakeFiles/underpassc.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target underpassc
@@ -69,7 +75,7 @@ build CMakeFiles/underpassc.dir/helloworld.c.o: C_COMPILER__underpassc_unscanned
 #############################################
 # Link the executable underpassc
 
-build underpassc: C_EXECUTABLE_LINKER__underpassc_Debug CMakeFiles/underpassc.dir/main.c.o CMakeFiles/underpassc.dir/helloworld.c.o
+build underpassc: C_EXECUTABLE_LINKER__underpassc_Debug CMakeFiles/underpassc.dir/main.c.o CMakeFiles/underpassc.dir/helloworld.c.o CMakeFiles/underpassc.dir/basiccalculator.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/underpassc.dir
   POST_BUILD = :

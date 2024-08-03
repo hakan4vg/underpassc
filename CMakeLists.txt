@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(underpassc main.c
         helloworld.c
-        helloworld.h)
+        helloworld.h
+        basiccalculator.c
+        basiccalculator.h)
